@@ -41,6 +41,8 @@ public class Monitoring {
                 Long delta = current - message.getTime();
 
                 PrintWriter writer = new PrintWriter("logging.txt", "UTF-8");
+
+                writer.println(delta);
             }
         };
 
